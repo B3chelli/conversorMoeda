@@ -1,39 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Painel de Cotações Global
 
-## Getting Started
+Um projeto prático desenvolvido para consolidar o aprendizado em consumo de APIs REST e manipulação de estado dinâmico com React. O aplicativo consome dados da AwesomeAPI para exibir a cotação atualizada das 6 principais moedas globais, permitindo a conversão instantânea a partir de um valor em Reais (BRL).
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Conversão em Tempo Real: Cálculo instantâneo do poder de compra ao digitar o valor em Reais para Dólar Americano, Euro, Libra, Iene, Franco Suíço e Dólar Australiano.
+* Sistema de Temas Dinâmico: Alternância fluida entre múltiplas paletas de cores (incluindo modos escuros personalizados e modos claros) utilizando a nova arquitetura de variáveis nativas do Tailwind CSS v4.
+* Design Responsivo: Interface limpa que se adapta perfeitamente a dispositivos móveis e desktops.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Framework: Next.js (App Router)
+* Linguagem: TypeScript
+* Estilização: Tailwind CSS v4 (com diretiva @theme)
+* Dados: AwesomeAPI (Economia)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como rodar o projeto localmente
 
-## Learn More
+1. Clone o repositório: `git clone https://github.com/B3chelli/conversorMoeda.git`
+2. Entre na pasta do projeto: `cd conversorMoeda`
+3. Instale as dependências: `npm install`
+4. Inicie o servidor de desenvolvimento: `npm run dev`
+5. Acesse http://localhost:3000 no seu navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# conversorMoeda" 
-"# conversorMoeda" 
-"# conversorMoeda" 
+Gabriel Bechelli Leal
