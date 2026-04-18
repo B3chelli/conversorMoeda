@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define os tokens diretamente aqui, sem alias */
+  --color-fundo: #09090b;
+  --color-card: #18181b;
+  --color-texto: #f4f4f5;
+  --color-destaque: #fbbf24;
+  --color-bordaFoco: #a855f7;
+}
+
+/* Agora sobrescrevemos os próprios tokens do Tailwind em cada tema */
+[data-theme='claro-1'] {
+  --color-fundo: #f8fafc;
+  --color-card: #ffffff;
+  --color-texto: #0f172a;
+  --color-destaque: #3b82f6;
+  --color-bordaFoco: #cbd5e1;
+}
+
+[data-theme='claro-2'] {
+  --color-fundo: #fefce8;
+  --color-card: #ffffff;
+  --color-texto: #451a03;
+  --color-destaque: #ea580c;
+  --color-bordaFoco: #fdba74;
+}
+
+[data-theme='original'] {
+  --color-fundo: #09090b;
+  --color-card: #18181b;
+  --color-texto: #f4f4f5;
+  --color-destaque: #34d399;
+  --color-bordaFoco: #10b981;
+}
